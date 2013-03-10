@@ -1,0 +1,1 @@
+* should probably check out this:  http://code.google.com/p/ddr-ecma5/source/browse/trunk/js/ddr-ecma5.js

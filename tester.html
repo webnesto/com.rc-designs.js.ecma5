@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Array Tester</title>
+	</head>
+	<body>
+	<script src="bin/debug.js"></script>
+	<script src="bin/Array.js"></script>
+	
+	
+	<link rel="stylesheet" href="lib/tester.css" />
+	<script type="text/javascript" src="lib/tester.js"></script>
+	<script type="text/javascript" src="bin/tests.js"></script>
+	<script>
+	with (jasmine) {
+	  getEnv().addReporter(new TrivialReporter());
+	  getEnv().execute();
+  }
+	</script>
+	</body>
+</html>

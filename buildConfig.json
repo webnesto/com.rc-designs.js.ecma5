@@ -1,0 +1,15 @@
+{
+	"_" : ""
+, "prod" : {													// Only used in production builds
+		"_" : ""
+	,	"keep" : [												// Variables for use in preprocessing
+//			"debug"													//	  This would ensure that all code enclosed in #ifdef debug -> #endif blocks will be included (unless innerblock disables)
+		]
+	}
+, "types": [ "js" ]
+, "typeProps":{
+		"js": {
+			"build": ""
+		}
+	}
+}
